@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="./assets/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css?version=1.0.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<header class="admin container-fluid">
+    <nav class="row">
+        <a href="./admin/" title="Administration"> <img class="adminImg" src="./assets/img/index.png" alt="admin"> </a>
+    </nav>
+</header>
+
+<section class="container-fluid">
+    <div class="row">
+        <label class="col-12 text-center my-5" for="select"><h1>Choisis la catégorie</h1></label>
+    </div>
+</section>
+
+<section class="container-fluid">
+    <div class="row">
+        <select class="text-danger col-4 offset-4 text-center" name="categorie" id="select">
+            <option >--Please choose an option--</option>
+        </select>
+    </div>
+</section>
+
+<div id="newButton">
+
+
+</div>
+
+<main> <!--Creation de balise dynamiquement via le js -->
+    <section class="message" id="articles">
+
+    </section>
+
+    <section id="articleButton">
+
+        
+
+    </section>
+</main>
+
+    <script type="text/javascript" src="assets/js/buttonArticle.js"></script>
+    <script type="text/javascript" src="assets/js/buttonCategorie.js"></script>
+    
+    <script type="text/javascript" src="assets/js/getCategories.js"></script>
+    <script type="text/javascript" src="assets/js/getArticles.js"></script>
+    
+    <script type="text/javascript" src="./assets/lib/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/jquery/jquery-3.5.1.min.js"></script>
+</body>
+</html>

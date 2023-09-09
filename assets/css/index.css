@@ -1,0 +1,12 @@
+body{
+    background-image: url(../img/architecture-1048092_1920.jpg);
+}
+
+.adminImg{
+    width: 50px;
+}
+
+.message{
+    background-color: rgba(73, 70, 70, 0.685);
+    color: white;
+}
